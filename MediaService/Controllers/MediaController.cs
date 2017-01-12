@@ -16,7 +16,7 @@ namespace MediaService.Controllers
     public class MediaController : ApiController
     {
         private MediaServiceContext db = new MediaServiceContext();
-
+        private string tempString = "test";
         // GET: api/Media
         public IQueryable<MediaDTO> GetMedia()
         {
